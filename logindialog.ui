@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDialog</class>
+ <widget class="QDialog" name="LoginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>249</width>
+    <height>318</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="PushButtonEx" name="statusPButtonL">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>170</y>
+     <width>12</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="qqWidgetL" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <widget class="QLineEdit" name="qqLEditL">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>8</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="pswLEditL">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>42</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>12</number>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>28</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginPButtonL">
+    <property name="geometry">
+     <rect>
+      <x>175</x>
+      <y>42</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="capsPButtonL">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>145</x>
+      <y>42</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="PushButtonEx" name="morePButton">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>290</y>
+     <width>22</width>
+     <height>9</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closePButtonL">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>14</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="iconBackGoundWidgetL" native="true">
+   <property name="geometry">
+    <rect>
+     <x>55</x>
+     <y>30</y>
+     <width>130</width>
+     <height>130</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="backgroundWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>251</width>
+     <height>321</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="MoreForm" name="moreWidgetL" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>240</y>
+     <width>251</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>moreWidgetL</zorder>
+  <zorder>backgroundWidget</zorder>
+  <zorder>statusPButtonL</zorder>
+  <zorder>qqWidgetL</zorder>
+  <zorder>morePButton</zorder>
+  <zorder>closePButtonL</zorder>
+  <zorder>iconBackGoundWidgetL</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PushButtonEx</class>
+   <extends>QPushButton</extends>
+   <header location="global">pushbuttonex.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MoreForm</class>
+   <extends>QWidget</extends>
+   <header location="global">moreform.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

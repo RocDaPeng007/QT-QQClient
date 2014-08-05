@@ -1,0 +1,298 @@
+QTabWidget#qqTWidget::pane{
+    border:none;
+}
+QTabWidget#qqTWidget::tab-bar{
+    alignment:center;
+}
+
+QTabWidget#qqTWidget>QTabBar::tab{
+    background:rgb(100, 100, 100, 100);
+    color:white;
+    min-width:90px;
+    min-height:50px;
+    padding: 0px;
+
+    margin-left: 0; /* the first selected tab has nothing to overlap with on the left */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:hover {
+    background:rgb(100, 100, 100, 100);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:selected{
+    border-color: white;
+    background: rgb(60, 60, 60, 100);
+    color:green;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:first{
+    background-image:url(:/images/images/background/aio_chat_buddy_normal.png);
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:first:hover{
+    background-image:url(:/images/images/background/aio_chat_buddy_normal.png);
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:first:selected{
+    background-image:url(:/images/images/background/aio_chat_buddy_down.png);
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:middle{
+    background-image:url(:/images/images/background/aio_chat_group_normal.png);
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:middle:hover{
+    background-image:url(:/images/images/background/aio_chat_group_normal.png);
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:middle:selected{
+    background-image:url(:/images/images/background/aio_chat_group_down.png);
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:last{
+    background-image:url(:/images/images/background/mainpanel_discuss_normal.png);
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:last:hover{
+    background-image:url(:/images/images/background/mainpanel_discuss_normal.png);
+}
+
+QTabWidget#qqTWidget>QTabBar::tab:last:selected{
+    background-image:url(:/new/images/new/mainpanel_discuss_down.png);
+}
+
+QWidget#qqWidgetL{
+    background:rgb(255, 255, 0, 255);
+    border-radius:10px;
+    border:2px outset gray;
+}
+
+QWidget#searchWidget{
+    border:2px outset gray;
+    border-radius:12px;
+    background:rgb(255, 255, 255, 255);
+}
+
+QLineEdit#qqLEditL, #pswLEditL, #searchLEdit2:fouce{
+    border:0px;
+    background:rgb(0, 0, 0, 0);
+}
+
+QLineEdit#qqLEditL, #pswLEditL, #searchLEdit2:hover {
+    border:0px;
+    background:rgb(0, 0, 0, 0);
+}
+
+QLineEdit#qqLEditL, #pswLEditL, #searchLEdit2{
+    border:0px;
+    background:rgb(0, 0, 0, 0);
+}
+
+QPushButton#closePButtonL{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/LoginWindow_CloseBtn_InActive.png");
+}
+
+QPushButton#closePButtonL:hover{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/LoginWindow_CloseBtn_Active_Hover.png");
+}
+
+QPushButton#statusPButtonL, #statusButton{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/Header+Search_Hide_Normal.png") repeat fixed!important;
+}
+
+QPushButton#statusPButtonL, #statusButton:hover{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/Header+Search_Hide_Normal.png") repeat fixed!important;
+}
+
+QPushButton#loginPButtonL{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/LoginWindow_LoginBtn_Normal.png") repeat fixed!important;
+}
+
+QPushButton#loginPButtonL:hover{
+    background-image: url(":/images/images/background/LoginWindow_LoginBtn_Hover.png") repeat fixed!important;
+}
+
+QPushButton#loginPButtonL:click{
+    background-image: url(":/images/images/background/LoginWindow_LoginBtn_Click.png") repeat fixed!important;
+}
+
+QPushButton#morePButton{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/LoginWindow_DownArrow_Normal.png") repeat fixed!important;
+}
+
+QPushButton#morePButton:click{
+    background-image: url(":/images/images/background/LoginWindow_DownArrow_Click.png") repeat fixed!important;
+}
+
+QPushButton#optionPButton{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/main_setting_normal.png") repeat fixed!important;
+}
+
+QPushButton#optionPButton:click{
+    background-image: url(":/images/images/background/main_add_normal.png") repeat fixed!important;
+}
+
+QPushButton#addFriendPButton{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/main_add_normal.png") repeat fixed!important;
+}
+
+QPushButton#addFriendPButton:click{
+    background-image: url(":/images/images/background/LoginWindow_DownArrow_Click.png") repeat fixed!important;
+}
+
+QPushButton#searchPButton{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/aio_group_search_normal.png") repeat fixed!important;
+}
+
+QPushButton#searchPButton:click{
+    background-image: url(":/images/images/background/aio_group_search_normal.png") repeat fixed!important;
+}
+
+QPushButton#capsPButtonL{
+    border:0px groove gray;
+    background-image: url(":/images/images/background/filetransfer_icon_offline_down.png") repeat fixed!important;
+}
+
+QPushButton#capsPButtonL:hover{
+    background-image: url(":/images/images/background/filetransfer_icon_receiver_hover.png") repeat fixed!important;
+}
+
+QPushButton#forgetPButton, #registerPButton{
+    border:2px outset gray;
+    border-radius:10px;
+}
+
+
+QPushButton#iconSelfPButton{
+    border:1px outset gray;
+    border-radius:15px;
+}
+
+QWidget#iconBackGoundWidgetL{
+    border:0px groove gray;
+    border-radius:10px;
+    background-image: url(":/images/images/background/LoginWindow_HeadMask_Active.png") repeat fixed!important;
+}
+
+QWidget#iconBackGoundWidgetL:hover{
+    border:0px groove gray;
+    border-radius:10px;
+    background-image: url(":/images/images/background/LoginWindow_HeadMask_Active_Hover.png") repeat fixed!important;
+}
+
+QWidget#moreformBackgroundWidget{
+    border:0px groove gray;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+QSlider::groove:horizontal{
+    border:0px;
+    height:4px;
+}
+
+QSlider::sub-page:horizontal{
+    background:white;
+}
+
+QSlider::add-page:horizontal{
+    background:lightgray;
+}
+
+QSlider::handle:horizontal{
+    background:white;
+    width:10px;
+    border-radius:5px;
+    margin:-3px 0px -3px 0px;
+}
+
+QWidget#lianxirenWidget_tray>QLabel#trayIconLabel {
+    border-image:url(:/new/images/new/c_menuBar_contact_normal.png) stretch center;
+}
+
+QWidget#lianxirenWidget_tray>QLabel#trayIconLabel:hover
+{
+    border-image:url(:/new/images/new/c_menuBar_contact_down.png) stretch center;
+}
+
+QWidget#youxiangWidget>QLabel#trayIconLabel {
+    border-image:url(:/new/images/new/c_menuBar_mail_normal.png);
+}
+
+QWidget#youxiangWidget>QLabel#trayIconLabel:hover
+{
+    border-image:url(:/new/images/new/c_menuBar_mail_down.png);
+}
+
+QWidget#kongjianWidget_tray>QLabel#trayIconLabel {
+    border-image:url(:/new/images/new/c_menuBar_qzone_normal.png);
+}
+
+QWidget#kongjianWidget_tray>QLabel#trayIconLabel:hover
+{
+    border-image:url(:/new/images/new/c_menuBar_qzone_down.png);
+}
+
+QWidget#weiboWidget_tray>QLabel#trayIconLabel {
+    border-image:url(:/new/images/new/c_menuBar_weibo_normal.png);
+}
+
+QWidget#weiboWidget_tray>QLabel#trayIconLabel:hover {
+    border-image:url(:/new/images/new/c_menuBar_weibo_down.png);
+}
+
+QWidget#swiftiyWidget_tray>QLabel#trayIconLabel {
+    border-image:url(:/new/images/new/c_menuBar_weibo_normal.png);
+}
+
+QWidget#swiftiyWidget_tray>QLabel#trayIconLabel:hover {
+    border-image:url(:/new/images/new/c_menuBar_weibo_normal.png);
+}
+
+QPushButton#QQPButton_tray{
+    border-image:url(:/new1/images/new1/menubar_qqicon_normal.png);
+}
+
+QPushButton#QQPButton_tray:hover{
+    border-image:url(:/new1/images/new1/menubar_qqicon_hover.png);
+}
+
+QPushButton#QQPButton_tray:down{
+    border-image:url(:/new1/images/new1/menubar_qqicon_down.png);
+}
+
+QPushButton#morePButton_tray{
+    border-image:url(:/new1/images/new1/menuBar_center_normal.png);
+}
+
+QPushButton#morePButton_tray:hover{
+    border-image:url(:/new1/images/new1/menuBar_center_hover.png);
+}
+
+QPushButton#morePButton_tray:down{
+    border-image:url(:/new1/images/new1/menuBar_center_down.png);
+}
+
+QWidget#widget_3 {
+    border-image:url(:/new/images/new/aboutUpMask.png);
+    background:rgb(255, 255, 255, 255);
+}
+
+QWidget#widget_2 {
+    border-image:url(:/new/images/new/swiftly_preference_seperator_bkg.png);
+}
